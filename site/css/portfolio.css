@@ -80,3 +80,67 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #750ff7;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width:699px) {
+  .desktop {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width:700px) {
+  .skills {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:699px) {
+  .skills {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.disabled {
+  opacity: 0.33;
+}
+
+@media screen and (min-width:700px) {
+  .contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .headings ,h2, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
