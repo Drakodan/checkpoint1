@@ -16,9 +16,14 @@ exemple :
   ['26-1', '26-2', '26-3', ..., '26-100']
 ] 
 */
-
 function theaterSieges() {
   // Your code here !
+  //j'ai utilisé la méthode map avec l'opérateur de propagation "..."
+  const theaterSeats = [...Array(26)].map((_, i) => {
+    return [...Array(100)].map((_, j) => `${i+1}-${j+1}`)
+  })
+  
+  console.log(theaterSeats)
 }
 
 console.log(theaterSieges());
