@@ -9,9 +9,9 @@ const changeName = document.querySelector("#name");
 
 
 changeText.addEventListener("click", function() {
-    changeName.style.color = "white";
     const myName = prompt("Entrez votre prénom");
-
+    changeName.style.color = "white";
+    changeName.innerHTML =(myName)
   }); 
 
   
