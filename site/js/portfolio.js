@@ -4,9 +4,14 @@ changeAvatar.addEventListener('click', function () {
     changeAvatar.src = "image/avatar.svg";
 });
 
+const changeText = document.querySelector(".button");
 const changeName = document.querySelector("#name");
 
-form.onsubmit = function (event) {
-  event.preventDefault();
-  console.log(`Hello, ${firstName.value} ${lastName.value}`);
-};
+
+changeText.addEventListener("click", function() {
+    changeName.style.color = "white";
+    const myName = prompt("Entrez votre prénom");
+
+  }); 
+
+  

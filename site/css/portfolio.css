@@ -144,3 +144,12 @@ p {
     align-items: center;
   }
 }
+
+.button {
+  color: white;
+  background-color: rgba(236, 205, 210, 0.742);
+  width: 150px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 10px;
+}

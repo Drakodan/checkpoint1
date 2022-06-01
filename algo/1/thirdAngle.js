@@ -10,6 +10,6 @@ function thirdAngle(a, b) {
   return 180 - (a + b)
 }
 
-//module.exports = thirdAngle;
+module.exports = thirdAngle;
 console.log(thirdAngle(90, 30));
 console.log(thirdAngle(20, 80));
